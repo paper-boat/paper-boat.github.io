@@ -132,9 +132,6 @@ img{
     }
   }
 }
-.psai-light{
-  background: #040517;
-}
 
 
 .soc_icons ul li a.icon5{
@@ -142,4 +139,88 @@ img{
   display: block;
   width: 120px;
   height:120px;
+}
+
+.psai-bac{
+  background: url(../images/city1.jpg) no-repeat center center;
+}
+
+.psai-zuopin{
+  width: 100%;
+  height:260px;
+  margin: 0 auto;
+  .psai-img{
+    background: #090909;
+    padding-top: 20px;
+    float: left;
+    width: 24%;
+    height:220px;
+    margin-right: 8px;
+    overflow: hidden;
+    position: relative;
+    transition: all .8s ease;
+    &:hover{
+      border-radius: 50%;
+    }
+    &:hover .hover-psai{
+      opacity: 1;
+      display: block;
+    }
+    img{
+      display: block;
+      height:200px;
+    }
+    .hover-psai{
+      position: absolute;
+      top:0;
+      left:0;
+      background: rgba(175,73,0,.74);
+      width: 100%;
+      height:100%;
+      border-radius:50%;
+      transition: all .6s ease .8s;
+      opacity: 0;
+      .hover-psai-icon{
+        width: 60px;
+        height:60px;
+        position: absolute;
+        left:0;
+        right:0;
+        top:0;
+        bottom:0;
+        margin: auto;
+        cursor: pointer;
+      }
+    }
+  }
+}
+.pasi{
+  position: relative;
+}
+
+.psai-img-fangda{
+  display: none;
+  position: absolute;
+  top:0;
+  left:0;
+  background: rgba(1,1,1,.87);
+  width: 100%;
+  height:100%;
+  .psai-img-tupian{
+    position: absolute;
+    top:200px;
+    bottom:0;
+    left:0;
+    right:0;
+    margin: auto;
+    width: 600px;
+    height:600px;
+    .psai-close{
+      display: block;
+      margin: 0 auto;
+      width: 80px;
+      height:80px;
+      cursor: pointer;
+    }
+  }
 }
