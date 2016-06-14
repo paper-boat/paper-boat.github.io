@@ -152,4 +152,11 @@ img {
   background: #040517;
 }
 
+.soc_icons ul li a.icon5{
+  background: none;
+  display: block;
+  width: 120px;
+  height:120px;
+}
+
 /*# sourceMappingURL=map/index.css.map */
