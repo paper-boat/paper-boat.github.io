@@ -199,7 +199,7 @@ img {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  transition: all .6s ease .8s;
+  transition: all .6s ease .4s;
   opacity: 0;
 }
 
