@@ -231,7 +231,7 @@ img{
     width: 100%;
     height:100%;
   }
-  .chart canvas{
+  .psai-heading .chart canvas{
     display: none;
   }
 }
@@ -241,7 +241,7 @@ img{
     width: 95%;
     height:95%;
   }
-  .chart canvas{
+  .psai-heading .chart canvas{
     display: none;
   }
 }
@@ -250,7 +250,7 @@ img{
     width: 90%;
     height:90%;
   }
-  .chart canvas{
+  .psai-heading .chart canvas{
     display: none;
   }
   .psai-img{
@@ -280,7 +280,7 @@ img{
       float: left;
     }
   }
-  .chart canvas{
+  .psai-heading .chart canvas{
     display: none;
   }
 
@@ -289,7 +289,7 @@ img{
   }
 }
 @media only screen and (max-width:960px) {
-  .chart canvas{
+  .psai-heading .chart canvas{
     display: none;
   }
   .pasi{
@@ -297,7 +297,7 @@ img{
   }
 }
 @media only screen and (max-width:880px) {
-  .chart canvas{
+  .psai-heading .chart canvas{
     display: none;
   }
   .pasi{
@@ -305,7 +305,7 @@ img{
   }
 }
 @media only screen and (min-width:800px) {
-  .chart canvas{
+  .psai-heading .chart canvas{
     display: none;
   }
   .pasi{
@@ -313,7 +313,7 @@ img{
   }
 }
 @media only screen and (max-width:780px) {
-  .chart canvas{
+  .psai-heading .chart canvas{
     display: none;
   }
   .pasi{
