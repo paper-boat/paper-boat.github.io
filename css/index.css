@@ -345,10 +345,13 @@ img {
   .pasi {
     margin: 0 auto;
   }
+  .centertxt {
+    margin-left: 130px;
+  }
   .row-content1 .psai-zuopin {
     width: 60%;
     margin: 0 auto;
-    margin-left: 40px;
+    margin-left: 25px;
   }
   .row-content1 .psai-zuopin .psai-img {
     width: 70%;
