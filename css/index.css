@@ -5,7 +5,7 @@ img {
 .zhezhao {
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.56);
 }
 
 #about {
@@ -246,6 +246,123 @@ img {
   width: 80px;
   height: 80px;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 1440px) {
+  .psai-zuopin {
+    width: 100%;
+    height: 100%;
+  }
+  .chart canvas {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .psai-zuopin {
+    width: 95%;
+    height: 95%;
+  }
+  .chart canvas {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .psai-zuopin {
+    width: 90%;
+    height: 90%;
+  }
+  .chart canvas {
+    display: none;
+  }
+  .psai-img {
+    margin-top: 10px;
+    width: 33.333%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .centertxt {
+    margin-left: 90px;
+  }
+  .work-heading .centertxt {
+    margin-left: 20px;
+  }
+  .psai-zuopin {
+    width: 600px;
+    height: 90%;
+    margin: 0 auto;
+  }
+  .psai-zuopin .psai-img {
+    margin: 0 auto;
+    margin-right: 10px;
+    width: 48%;
+    box-sizing: border-box;
+    height: 235px;
+    margin-top: 10px;
+    float: left;
+  }
+  .chart canvas {
+    display: none;
+  }
+  .psai-img-img {
+    height: 200px;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .chart canvas {
+    display: none;
+  }
+  .pasi {
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  .chart canvas {
+    display: none;
+  }
+  .pasi {
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .chart canvas {
+    display: none;
+  }
+  .pasi {
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .chart canvas {
+    display: none;
+  }
+  .pasi {
+    margin: 0 auto;
+  }
+  .row-content1 .psai-zuopin {
+    width: 60%;
+    margin: 0 auto;
+    margin-left: 40px;
+  }
+  .row-content1 .psai-zuopin .psai-img {
+    width: 70%;
+    height: 240px;
+  }
+  .row-content1 .psai-zuopin .psai-img .psai-img-img {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .pasi {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=map/index.css.map */
