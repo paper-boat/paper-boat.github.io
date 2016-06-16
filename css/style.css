@@ -553,6 +553,7 @@ textarea
 	height: 300px;
 	}
 	.centertxt {
+	margin: 0 auto;
 	width: 100%;
 	}
 }

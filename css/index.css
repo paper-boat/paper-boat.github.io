@@ -61,6 +61,14 @@ img {
   top: 0;
 }
 
+h2 {
+  margin-left: 0;
+}
+
+#my-work {
+  margin: 0 auto;
+}
+
 .work-light {
   background: #070A1C;
   margin: 0 auto;
@@ -282,13 +290,11 @@ img {
   }
 }
 
+.about-me {
+  width: 180px;
+}
+
 @media only screen and (max-width: 1024px) {
-  .centertxt {
-    margin-left: 90px;
-  }
-  .work-heading .centertxt {
-    margin-left: 20px;
-  }
   .psai-zuopin {
     width: 600px;
     height: 90%;
@@ -345,13 +351,9 @@ img {
   .pasi {
     margin: 0 auto;
   }
-  .centertxt {
-    margin-left: 130px;
-  }
   .row-content1 .psai-zuopin {
     width: 60%;
     margin: 0 auto;
-    margin-left: 25px;
   }
   .row-content1 .psai-zuopin .psai-img {
     width: 70%;
